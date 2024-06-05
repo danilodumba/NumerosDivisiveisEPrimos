@@ -6,9 +6,11 @@ Init();
 void Init()
 {
     long numero = 0;
-    Console.WriteLine("=============");
+    Console.Clear();
+    Console.WriteLine("====================================================================");
     Console.WriteLine("Seja muito bem vindo para descobrir os numeros divisiveis e primos.");
-    Console.WriteLine("=============");
+    Console.WriteLine("====================================================================");
+     Console.WriteLine("");
     Console.Write("Informe seu número ==> ");
 
     if (!long.TryParse(Console.ReadLine(), out numero))
@@ -24,17 +26,21 @@ void Init()
 
     Console.WriteLine("-----------------");
     Console.WriteLine("");
-    Console.WriteLine("Numeros divisiveis => " + string.Join(", ", numerosDivisiveis));
-     Console.WriteLine("");
-    Console.WriteLine("Numeros primos => " + string.Join(", ", numerosDivisiveis.NumerosPrimos()));
-    Console.WriteLine("-----------------");
+    Console.WriteLine("Números divisiveis => " + string.Join(", ", numerosDivisiveis));
     Console.WriteLine("");
+    Console.WriteLine("Números primos => " + string.Join(", ", numerosDivisiveis.NumerosPrimos()));
+    Console.WriteLine("");
+    Console.WriteLine("-----------------");
 
     InformaSaidaConsole();
 }
 
 void InformaSaidaConsole()
-{
+{ 
+    Console.WriteLine("");
+    Console.WriteLine("");
+    Console.WriteLine("====================================================================");
+    Console.WriteLine("");
     Console.WriteLine("Selecione X para sair ou qualquer tecla para continuar.");
     var digito = Console.ReadLine() ?? string.Empty;
     if (!digito.ToLower().Equals("x"))
@@ -45,6 +51,5 @@ void InformaSaidaConsole()
 
 void ReiniciarConsole()
 {
-    Console.Clear();
     Init();  
 }
