@@ -3,9 +3,9 @@
 
 ### Exemplo.
 
-Número => 30
-Números divisíveis => 1, 2, 3, 5, 6, 10, 15, 30
-Números primos => 1, 2, 3, 5
+- Número => 30
+- Números divisíveis => 1, 2, 3, 5, 6, 10, 15, 30
+- Números primos => 1, 2, 3, 5
 
 ## Como rodar?
 
