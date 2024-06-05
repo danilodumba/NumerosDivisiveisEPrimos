@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosDivisiveisEPrimos.Lib", "NumerosDivisiveisEPrimos.Lib\NumerosDivisiveisEPrimos.Lib.csproj", "{6F4CE0B7-2812-45CF-8419-FC1CE790C618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosDivisiveisEPrimos.Console", "NumerosDivisiveisEPrimos.Console\NumerosDivisiveisEPrimos.Console.csproj", "{F2780B2C-64A5-4954-9160-B3180B1B19C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosDivisiveisEPrimos.Test", "NumerosDivisiveisEPrimos.Test\NumerosDivisiveisEPrimos.Test.csproj", "{3C41D25E-F548-42EE-BB9F-29C755AB1A95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F4CE0B7-2812-45CF-8419-FC1CE790C618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4CE0B7-2812-45CF-8419-FC1CE790C618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4CE0B7-2812-45CF-8419-FC1CE790C618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4CE0B7-2812-45CF-8419-FC1CE790C618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2780B2C-64A5-4954-9160-B3180B1B19C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2780B2C-64A5-4954-9160-B3180B1B19C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2780B2C-64A5-4954-9160-B3180B1B19C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2780B2C-64A5-4954-9160-B3180B1B19C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C41D25E-F548-42EE-BB9F-29C755AB1A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C41D25E-F548-42EE-BB9F-29C755AB1A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C41D25E-F548-42EE-BB9F-29C755AB1A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C41D25E-F548-42EE-BB9F-29C755AB1A95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
