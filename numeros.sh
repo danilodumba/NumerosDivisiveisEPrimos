@@ -1,0 +1,2 @@
+cd NumerosDivisiveisEPrimos.Console
+dotnet run
